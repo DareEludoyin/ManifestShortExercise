@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifest Your Life</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+
+    <style>
+        .success {
+            background: yellowgreen;
+        }
+
+        .failed {
+            background: tomato;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h2 id="title">Manifest Your Life Now</h2>
+
+        <form action="" id="form">
+            <div>
+                <label for="home">Home</label>
+                <input type="text" id="home" class="u-full-width">
+            </div>
+
+            <div>
+                <label for="annualsalary">Salary</label>
+                <input type="text" id="annualsalary" class="u-full-width">
+            </div>
+
+            <div>
+                <label for="wife">Spouse</label>
+                <input type="text" id="wife" class="u-full-width">
+            </div>
+
+            <div>
+                <label for="happiness">Happiness</label>
+                <input type="text" id="happiness" class="u-full-width">
+            </div>
+
+            <div>
+                <input type="submit" class="u-full-width" id="submit">
+            </div>
+        </form>
+
+        <table id="table">
+            <thead>
+                <th>Home</th>
+                <th>Salary</th>
+                <th>Wife</th>
+                <th>Happiness</th>
+            </thead>
+            <tbody id="tablebody"></tbody>
+        </table>
+    </div>
+    <script src="rewrite.js"></script>
+</body>
+</html>
